@@ -4,7 +4,7 @@
 - Projeto REST para registro das regras de autorização e das solicitações de autorização procedimentos.
 
 ** Informações **
-- JDK7 e eclipse para desenvolvimento;
+- JDK8 e eclipse para desenvolvimento;
 - Foi utilizado Maven para empacotar o projeto;
 - Servidor de Aplicação wildfly-10.0.0.Final;
 - Banco de dados PostgreSQL;
