@@ -13,10 +13,10 @@
 - Contexto da aplicação: http://localhost:8080/asq/
   
 ** Consulta de Autorização - GET / Retorno 'SIM' ou 'NAO'
-- http://localhost:8080/asq/rest/autorizador/procedimento/1111/idade/41/sexo/M
+- http://localhost:8080/asq/rest/autorizador/procedimento/111111/idade/41/sexo/M
 
 ** Cadastro de novo procedimento - POST / Retorno 200 OK
-  - http://localhost:8080/asq/rest/autorizador/cadastro/procedimento/111111/idade/10/sexo/M/autoriza/NAO
+  - http://localhost:8080/asq/rest/autorizador/cadastro/procedimento/111111/idade/41/sexo/M/autoriza/SIM
 
 ** Configuraçao do Data Source - standalone.xml ** 
 --------------------------------------------------
