@@ -7,7 +7,6 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
@@ -15,8 +14,7 @@ import javax.persistence.Table;
 public class Procedimento {
 	
 	@Id
-	@SequenceGenerator(name="procedimentos_id_seq", sequenceName="procedimentos_id_seq", allocationSize=1)
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator="procedimentos_id_seq")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
 	@Column
